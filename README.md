@@ -2,7 +2,7 @@
 
 Laravel integration for the [Active Campaign](https://developers.activecampaign.com/reference) package.
 
-An open source package by **Kotpunt NV**, code well, rock on!
+An open source package by **Digital Leap Agency**, code well, rock on!
 
 ## Documentation
 
