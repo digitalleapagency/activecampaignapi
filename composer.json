@@ -1,0 +1,36 @@
+{
+    "name": "digitalleapagency/active-campaign",
+    "description": "Laravel Package to manage your contacts in Active Campaign account, add/remove tags to contacts and manage events",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Kotpunt NV",
+        "email": "apoorva94kedia@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "DigitalLeapAgency\\ActiveCampaign\\": "src"
+        }
+    },
+    "extra":
+    {
+        "laravel":
+        {
+            "providers": [
+                "DigitalLeapAgency\\ActiveCampaign\\ActiveCampaignServiceProvider"
+            ],
+            "aliases":
+            {
+                "Contact": "DigitalLeapAgency\\ActiveCampaign\\Facades\\Contact",
+                "Tag": "DigitalLeapAgency\\ActiveCampaign\\Facades\\Tag",
+                "Event": "DigitalLeapAgency\\ActiveCampaign\\Facades\\Event"
+            }
+        }
+    },
+    "require":
+    {}
+}
