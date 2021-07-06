@@ -11,7 +11,7 @@ Follow below steps to install and implement active campaign package in your lara
 1. Open Command-Prompt/terminal from your laravel project root folder.
 2. Run following command to install the package:
 
-> composer require kotpunt-nv/active-campaign
+> composer require digitalleapagency/active-campaign
 
 3. Once the package is installed completely, you need to copy the configuration file inside your config folder and register the ActiveCampaignServerProvider. To do so, run the following command:
 
